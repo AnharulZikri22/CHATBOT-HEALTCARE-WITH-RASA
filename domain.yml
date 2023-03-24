@@ -1,0 +1,126 @@
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - bot_challenge
+  - inform
+  - thankyou
+  - out_of_scope
+  - catat_kesehatan_harian
+
+entities:
+  - exercise
+  - sleep
+  - stress
+
+responses:
+  utter_greet:
+  - text: "halo saya adalah asisten chatbot anda apakah ada yang bisa saya bantu"
+
+  utter_ask_catat_kesehatan_harian:
+  - text: "apakah anda ingin melakukan pencatatan kesehatan harian anda"
+
+  utter_ask_pola_hidup_sehat:
+  - text: "Pola hidup sehat adalah gaya hidup yang mencakup pola makan sehat, olahraga teratur, dan tidur yang cukup."
+  
+  utter_ask_pentingnya_pola_hidup_sehat:
+  - text: "Pola hidup sehat memiliki banyak manfaat bagi kesehatan kita, baik secara fisik maupun mental. Dengan menjaga pola hidup sehat, kita dapat meningkatkan kualitas hidup kita, karena tubuh kita menjadi lebih sehat dan berenergi."
+
+  utter_ask_waktu_tidur:
+  - text: "Waktu tidur yang ideal untuk orang dewasa adalah sekitar 7-8 jam setiap malam."
+
+  utter_ask_makanan_sehat:
+  - text: "Makanan sehat adalah makanan yang memiliki nutrisi yang diperlukan oleh tubuh dan dapat membantu memelihara kesehatan dan kebugaran. Makanan sehat sebaiknya terdiri dari berbagai macam jenis makanan seperti sayuran, buah-buahan, biji-bijian, sumber protein seperti daging tanpa lemak, ikan, dan kacang-kacangan, serta lemak sehat seperti lemak tak jenuh tunggal dan ganda."
+
+  utter_ask_makanan_yang_dihindari:
+  - text: "Makanan yang mengandung lemak jenuh, gula, dan garam berlebih sebaiknya dihindari dalam pola hidup sehat."
+
+  utter_ask_manfaat_olahraga:
+  - text: "Olahraga memiliki banyak manfaat untuk kesehatan dan kebugaran tubuh. Olahraga dapat membantu meningkatkan kesehatan jantung dan pembuluh darah, memperkuat otot dan tulang, menjaga berat badan ideal, meningkatkan kesehatan mental dan emosional, serta meningkatkan kekuatan, kelincahan, dan daya tahan fisik. Olahraga yang dilakukan secara teratur juga dapat meningkatkan kualitas tidur, memperbaiki fungsi kognitif, dan membantu meningkatkan kualitas hidup secara keseluruhan."
+
+  utter_ask_saran_olahraga:
+  - text: "Berbagai jenis olahraga aerobik, seperti berjalan kaki, berlari, bersepeda, atau berenang, disarankan dalam pola hidup sehat."
+
+  utter_ask_frekuensi_olahraga:
+  - text: "Disarankan untuk berolahraga setidaknya 150 menit per minggu, atau sekitar 30 menit sehari selama 5 hari dalam seminggu."
+
+  utter_ask_memulai_pola_hidup_sehat:
+  - text: "Memulai pola hidup sehat dapat dilakukan dengan beberapa langkah sederhana, seperti mengatur jadwal tidur dan bangun yang teratur, mengonsumsi makanan sehat yang kaya nutrisi dan rendah lemak, serta berolahraga secara teratur. Selain itu, meminimalisir konsumsi alkohol dan rokok juga sangat penting. Mulailah dengan membuat target kecil yang mudah dicapai, seperti memperbanyak konsumsi sayur dan buah setiap harinya atau berjalan kaki selama 30 menit setiap pagi. "
+
+  utter_ask_motivasi_pola_hidup_sehat:
+  - text: "Dapat mencari teman untuk berolahraga bersama, menetapkan tujuan yang realistis, dan memperhatikan perubahan positif pada tubuh dapat membantu memotivasi diri dalam menjalankan pola hidup sehat."
+
+  utter_ask_mengurangi_stress:
+  - text: "Mengurangi stres bisa dilakukan dengan cara yang berbeda-beda, tergantung pada preferensi dan kebutuhan masing-masing individu. Beberapa cara yang umum dilakukan adalah dengan mengatur waktu istirahat dan relaksasi yang cukup, seperti melakukan meditasi atau yoga, membaca buku, atau menonton film. Selain itu, berolahraga secara teratur juga dapat membantu mengurangi stres dengan cara meningkatkan produksi endorfin dalam tubuh yang dapat membuat perasaan menjadi lebih baik."
+
+  utter_ask_menjaga_kesehatan_mental:
+  - text: "Menjaga kesehatan mental sangat penting untuk menjalani kehidupan yang bahagia dan produktif. Beberapa cara yang dapat dilakukan untuk menjaga kesehatan mental adalah dengan membangun hubungan sosial yang positif dan sehat, seperti menjalin persahabatan dan menghabiskan waktu dengan orang-orang yang positif dan mendukung. Selain itu, merawat diri sendiri dengan pola tidur yang teratur, makan makanan yang sehat, dan berolahraga secara teratur juga dapat membantu menjaga kesehatan mental."
+
+  utter_ask_insomnia:
+  - text: "Menghindari stimulan seperti kafein atau alkohol sebelum tidur, membuat jadwal tidur yang teratur, dan membuat lingkungan tidur yang nyaman dapat membantu mengatasi sulit tidur"
+
+  utter_ask_kebiasaan_makan_buruk:
+  - text: "Mengetahui penyebab kebiasaan makan yang buruk, membuat rencana makan sehat yang realistis, dan mencari dukungan dari teman atau ahli gizi dapat membantu mengatasi kebiasaan makan yang buruk dalam pola hidup sehat."
+
+  utter_ask_cara_konsisten:
+  - text: "Menetapkan tujuan yang realistis, mencoba membuat perubahan kecil secara bertahap, dan menghindari perubahan yang terlalu drastis dapat membantu menjaga konsistensi"
+  
+  utter_goodbye:
+  - text: "Sampai jumpa. Bye!"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+  
+  utter_ask_confirm_exercise:
+  - text: apakah kamu melakukan olahraga hari ini?
+  utter_ask_exercise:
+  - text: Olahraga apa yang anda lakukan 💪 ?
+  utter_ask_sleep:
+  - text: "berapa lama kamu tidur semalam 💤  ?"
+  utter_ask_diet:
+  - text: "apakah anda melaksanan diet anda kemarin 🥦  ?"
+  utter_ask_stress:
+  - text: "bagaimana level stress anda low/medium/high 🧘 ?"
+    buttons:
+      - title: "low"
+        payload: '/inform{"stress": "low"}'
+      - title: "medium"
+        payload: '/inform{"stress": "medium"}'
+      - title: "high"
+        payload: '/inform{"stress": "high"}'
+  utter_ask_goal:
+  - text: "menetapkan goals - bahkan meskipun itu kecil - adalah cara yang baik untuk memulai hari 🥇 ?"
+  utter_slots_values:
+  - text: "Berikut catatan kesehatan harian anda:\n
+            - Exercised?: {confirm_exercise}\n
+            - Type of exercise: {exercise}\n
+            - Sleep: {sleep}\n
+            - Stuck to a healthy diet?: {diet}\n
+            - Stress level: {stress}\n
+            - Goal: {goal}"
+  utter_no_worries:
+  - text: "tidak masalah :)"
+  utter_ask_continue:
+  - text: "maaf saya tidak mengerti apakah anda mau melanjutkan?"
+
+slots:
+  confirm_exercise:
+    type: unfeaturized
+  exercise:
+    type: unfeaturized
+  sleep:
+    type: unfeaturized
+  diet:
+    type: unfeaturized
+  stress:
+    type: unfeaturized
+  goal:
+    type: unfeaturized
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: false
+
+forms:
+  - health_form
